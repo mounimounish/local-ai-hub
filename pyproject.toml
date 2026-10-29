@@ -1,0 +1,17 @@
+[project]
+name = "local-ai-hub"
+version = "0.1.0"
+description = "A local AI hub with Kokoro text-to-speech and faster-whisper speech-to-text"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "kokoro",
+    "soundfile",
+    "numpy",
+    "faster-whisper",
+]
+
+[tool.uv]
+package = false

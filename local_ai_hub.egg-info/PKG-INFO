@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: local-ai-hub
+Version: 0.1.0
+Summary: A local AI hub with Kokoro text-to-speech and faster-whisper speech-to-text
+Requires-Python: <3.13,>=3.11
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: python-multipart
+Requires-Dist: kokoro
+Requires-Dist: soundfile
+Requires-Dist: numpy
+Requires-Dist: faster-whisper
